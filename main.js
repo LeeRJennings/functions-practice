@@ -1,3 +1,29 @@
+//===================================================Age In Dog Years===================================================
+const calculateAgeInDogYears = (ageOfPerson) => {
+    const ageInDogYears = ageOfPerson * 7
+    return ageInDogYears
+}
+
+// console.log(calculateAgeInDogYears(30))
+
+//===================================================Best In Show===================================================
+const bestInShow = (dogBreed) => {
+    if (dogBreed === "meow") {
+        const cats = "I like cats."
+        return cats
+    } else {
+        const favDog = `my favorite dog breed is ${dogBreed}`
+        return favDog
+    }
+}
+
+const favoriteDog = bestInShow("beagle")
+
+console.log(`When it comes to dogs, ${favoriteDog}.`)
+console.log(bestInShow("meow"))
+
+//===================================================Addition===================================================
+
 //===================================================Double Functions===================================================
 const words = [
     "The", "killing", "complex", "houses",
@@ -35,4 +61,4 @@ const newArr = noKs(words)
 */
 const newString = stringBuilder(newArr)
 
-console.log(newString)
+// console.log(newString)
